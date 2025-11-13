@@ -1,0 +1,14 @@
+[build-systme]
+requires = ["hatchling>=1.13"]
+build-backend = "hatchling.build"
+
+[project]
+name = "automate-with-django"
+version = "0.1.0"
+descrtiption = "Atuomatizaciones de curso Udemy"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "django"
+]
