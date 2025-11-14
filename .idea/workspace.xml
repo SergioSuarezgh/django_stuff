@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="Merge branch 'master' of https://github.com/SergioSuarezgh/django_stuff">
-      <change afterPath="$PROJECT_DIR$/dataentry/management/commands/importdata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataentry/management/commands/insertdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/automate_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automate_django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="creacion de customer y student y comandos customizados para cargar csvs">
+      <change afterPath="$PROJECT_DIR$/dataentry/management/commands/exportdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataentry/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataentry/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +25,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SergioSuarezgh"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SergioSuarezgh&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SergioSuarezgh/django_stuff",
-    "accountId": "e870eb61-7fc9-473e-91e3-ae0b57f9e033"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SergioSuarezgh/django_stuff&quot;,
+    &quot;accountId&quot;: &quot;e870eb61-7fc9-473e-91e3-ae0b57f9e033&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -51,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\CURSOS DE INFORMATICA\PYTHON\CURSOS\automate-with-django\pythonProject" />
@@ -104,12 +99,40 @@
       <option name="project" value="LOCAL" />
       <updated>1763058731586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="creacion de customer y student y comandos customizados para cargar csvs">
+      <option name="closed" value="true" />
+      <created>1763069517593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069517593</updated>
+    </task>
+    <task id="LOCAL-00005" summary="creacion de customer y student y comandos customizados para cargar csvs">
+      <option name="closed" value="true" />
+      <created>1763069575523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763069575523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 0.1.0--&gt; primer commit, montaje de proyecto django" />
     <MESSAGE value="Merge branch 'master' of https://github.com/SergioSuarezgh/django_stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/SergioSuarezgh/django_stuff" />
+    <MESSAGE value="creacion de customer y student y comandos customizados para cargar csvs" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de customer y student y comandos customizados para cargar csvs" />
   </component>
 </project>
