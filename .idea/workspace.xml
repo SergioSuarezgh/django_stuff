@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="creacion de customer y student y comandos customizados para cargar csvs">
-      <change afterPath="$PROJECT_DIR$/dataentry/management/commands/exportdata.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="creacion de customer y student y comandos customizados para exportar csvs">
+      <change afterPath="$PROJECT_DIR$/awd_main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataentry/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataentry/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dataentry/importdata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awd_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awd_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/management/commands/importdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/management/commands/importdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -115,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763069575523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="creacion de customer y student y comandos customizados para exportar csvs">
+      <option name="closed" value="true" />
+      <created>1763123344984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763123344984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +152,7 @@
     <MESSAGE value="version 0.1.0--&gt; primer commit, montaje de proyecto django" />
     <MESSAGE value="Merge branch 'master' of https://github.com/SergioSuarezgh/django_stuff" />
     <MESSAGE value="creacion de customer y student y comandos customizados para cargar csvs" />
-    <option name="LAST_COMMIT_MESSAGE" value="creacion de customer y student y comandos customizados para cargar csvs" />
+    <MESSAGE value="creacion de customer y student y comandos customizados para exportar csvs" />
+    <option name="LAST_COMMIT_MESSAGE" value="creacion de customer y student y comandos customizados para exportar csvs" />
   </component>
 </project>
