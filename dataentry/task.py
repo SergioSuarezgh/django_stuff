@@ -8,7 +8,7 @@ from django.core.management import call_command #Esto llama a los comandos de dj
 from django.core.mail import EmailMessage
 
 from awd_main.settings import DEFAULT_FROM_EMAIL
-from .utils import send_email_notifications
+from .utils import send_email_notifications, generate_csv_file
 
 
 @app.task
@@ -33,3 +33,19 @@ def import_data_task(file_path, model_name):
     to_email = DEFAULT_FROM_EMAIL
     send_email_notifications(mail_subject, message, to_email)
     return 'Data imported successfully!'
+
+@app.task
+def export_data_task(file_path, model_name):
+    try:
+        call_command('exportdata', model_name)
+    except Exception as e:
+        raise e
+
+    file_path = generate_csv_file(model_name)
+    # notify the user by email with attachment
+    mail_subject = 'Export Data Complete'
+    message = ' Your data export has been successful. Please find attachment'
+    to_email = DEFAULT_FROM_EMAIL
+    send_email_notifications(mail_subject, message, to_email, attachment=file_path)
+    return 'Export Data task executed successfully'
+

@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="generacion de opciones para importar archivos desde el front end">
-      <change afterPath="$PROJECT_DIR$/awd_main/celery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/awd_main/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataentry/task.py" afterDir="false" />
+    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="subida con celeris y envio de mail al subir archivos">
+      <change afterPath="$PROJECT_DIR$/templates/dataentry/exportdata.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awd_main/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awd_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/awd_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awd_main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataentry/management/commands/importdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/management/commands/importdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/management/commands/exportdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/management/commands/exportdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataentry/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataentry/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dataentry/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataentry/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/alert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dataentry/importdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dataentry/importdata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exported_Student_data_2025-11-14-13-13-08.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -153,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763318839315</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="subida con celeris y envio de mail al subir archivos">
+      <option name="closed" value="true" />
+      <created>1763718006990</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763718006990</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +177,7 @@
     <MESSAGE value="creacion de customer y student y comandos customizados para cargar csvs" />
     <MESSAGE value="creacion de customer y student y comandos customizados para exportar csvs" />
     <MESSAGE value="generacion de opciones para importar archivos desde el front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="generacion de opciones para importar archivos desde el front end" />
+    <MESSAGE value="subida con celeris y envio de mail al subir archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="subida con celeris y envio de mail al subir archivos" />
   </component>
 </project>

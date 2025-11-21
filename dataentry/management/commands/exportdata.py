@@ -4,6 +4,7 @@ import datetime
 from django.core.management.base import BaseCommand
 from django.apps import apps
 
+from dataentry.utils import generate_csv_file
 
 
 # commmand --> python manage.py exportdata model_name
@@ -33,11 +34,8 @@ class Command(BaseCommand):
         # fetch the data from the database
         data = model.objects.all()
 
-        # generate timestamp
-        timestamp = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-
-        # define the csv file name(path
-        file_path =f'exported_{model_name}_data_{timestamp}.csv'
+        # generate filepath csv
+        file_path = generate_csv_file(model_name)
 
         # open de csv file and write the data
         with open(file_path, 'w', newline='') as file:
