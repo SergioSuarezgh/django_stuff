@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="subida de funcionalidad para exportar data">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    <list default="true" id="cbec52d2-a331-4308-a45e-81c86f00fb81" name="Changes" comment="templates y creacion de pagina home">
+      <change afterPath="$PROJECT_DIR$/awd_main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awd_main/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/static/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dataentry/exportdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dataentry/exportdata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dataentry/importdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dataentry/importdata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awd_main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awd_main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/awd_main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/awd_main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -51,12 +53,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="features/automation_tools_front_end" />
-                    <option name="lastUsedInstant" value="1763725896" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1763744855" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1763725895" />
+                    <option name="branchName" value="features/automation_tools_front_end" />
+                    <option name="lastUsedInstant" value="1763744854" />
                   </RecentBranch>
                 </list>
               </option>
@@ -87,7 +89,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;features/automation__tools__front__end&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
